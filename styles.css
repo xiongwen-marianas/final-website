@@ -1,6 +1,8 @@
 a {
     text-decoration: none;
 }
-section h2{
-    justify-content: center;
+img.logo{
+    width: 200px;
+    height: auto;
+    margin: 5px;
 }
