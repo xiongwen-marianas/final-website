@@ -1,8 +1,124 @@
-a {
-    text-decoration: none;
+@media only screen and (max-width: 600px) {
+    body{
+        font-size: 12px;
+    }
+    .background{
+        background-image: url(image/background.jpg);
+    }
 }
-img.logo{
-    width: 200px;
-    height: auto;
-    margin: 5px;
+@media only screen and (min-width: 601px) and (max-width:1024) {
+    body{
+        font-size: 14px;
+    }
+    .background{
+        background-image: url(image/background.jpg);
+    }
+}   
+@media only screen and (min-width: 1025px) {
+    body{
+        font-size: 16px;
+    }
+    .background{
+        background-image: url(image/background.jpg);
+    }
+}
+nav a:hover {
+    text-decoration: none;
+    color: blue;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    list-style: none;
+    padding: 10px;
+    text-align: right;
+}
+nav ul li{
+    padding: 10px 2px;
+    display: inline;
+    margin-right: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+.headnav{
+    overflow: hidden;
+    background-color: aquamarine;
+}
+.background{
+    height: 95vh;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image: url(image/background.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.saipan{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.video{
+    float: right;
+    width: 44%;
+    height: 50vh;
+    margin: auto;
+}
+.footnav{
+    text-align: center;
+    background-color: aquamarine;
+    position: sticky;
+    overflow: hidden;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.description{
+    text-align: center;
+    margin: 40px;
+}
+.footnav a:hover{
+    text-decoration: none;
+    color: blue;
+}
+.footnav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+.grid-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10rem;
+    justify-content: center;
+    text-align: center;
+}
+.box-layout{
+    border-radius: 3rem;
+    overflow: hidden;
+}
+.box-layout img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    display: flex;
+}
+.head{
+    text-align: center;
+}
+.grid-container a:hover{
+    text-decoration: none;
+    color: blue;
+}
+.grid-container a{
+    text-decoration: none;
+    color: black;
 }
