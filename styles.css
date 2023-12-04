@@ -122,3 +122,48 @@ nav a{
     text-decoration: none;
     color: black;
 }
+.form h1{
+    gap: 4rem;
+    text-align: center;
+    font-size: 40px;
+}
+.contact{
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.submit{
+    margin-top: 1rem;
+    text-align: center;
+    padding: 5rem;
+}
+.message textarea{
+    box-sizing: border-box;
+    height: 10rem;
+    resize: none;
+}
+.contact input,.message textarea{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 18px;
+}
+.about-background{
+    height: 95vh;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image: url(image/saipan.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutUs{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
