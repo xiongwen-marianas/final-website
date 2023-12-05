@@ -69,8 +69,7 @@ nav a{
 .video{
     float: right;
     width: 44%;
-    height: 50vh;
-    margin: auto;
+    height: auto;
 }
 .footnav{
     text-align: center;
@@ -113,6 +112,7 @@ nav a{
 }
 .head{
     text-align: center;
+    padding: 4rem;
 }
 .grid-container a:hover{
     text-decoration: none;
@@ -184,7 +184,7 @@ table.week thead{
     font-size: 4rem;
 }
 .festival a{
-    font-family: cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
     color: black;
     font-weight: bolder;
@@ -225,6 +225,7 @@ table.week thead{
     background-image: url(image/grotto-page.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
 }
 .grotto-head{
     text-align: center;
