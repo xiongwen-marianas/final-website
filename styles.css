@@ -225,7 +225,6 @@ table.week thead{
     background-image: url(image/grotto-page.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
 }
 .grotto-head{
     text-align: center;
