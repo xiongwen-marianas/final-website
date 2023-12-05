@@ -2,24 +2,15 @@
     body{
         font-size: 12px;
     }
-    .background{
-        background-image: url(image/background.jpg);
-    }
 }
 @media only screen and (min-width: 601px) and (max-width:1024) {
     body{
         font-size: 14px;
     }
-    .background{
-        background-image: url(image/background.jpg);
-    }
 }   
 @media only screen and (min-width: 1025px) {
     body{
         font-size: 16px;
-    }
-    .background{
-        background-image: url(image/background.jpg);
     }
 }
 nav a:hover {
