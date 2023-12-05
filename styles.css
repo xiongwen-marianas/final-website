@@ -167,3 +167,98 @@ nav a{
     color: white;
     font-size: 35px;
 }
+table.week{
+    border-collapse: collapse;
+}
+table.week td, th{
+    padding: 10px;
+    border: 1px solid black;
+}
+table.week thead{
+    background-color: lightblue;
+}
+.event-head{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 4rem;
+}
+.festival a{
+    font-family: cursive;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.festival a:hover{
+    text-decoration: none;
+    color: lightblue;
+}
+.container{
+    display: grid;
+}
+.week tr td:hover{
+    background-color: aliceblue;
+}
+.week tr td{
+    text-align: center;
+    background-color: white;
+}
+.span th{
+    border: none;
+}
+.flame{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image: url(image/flame.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10rem;
+    font-size: larger;
+}
+.grotto-img{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image: url(image/grotto-page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.grotto-head{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.grotto-layout img{
+    width: 30%;
+    height: auto;
+    float: right;
+    margin-right: 10rem;
+}
+.grotto-description h1, p{
+    text-align: center;
+}
+.grotto-description h1{
+    color: blue;
+}
+.animation{
+    height: 3vh;
+    width: 100%;
+    display: flex;
+    animation: colorChange 6s linear infinite;
+}
+
+@keyframes colorChange{
+    0%,100%{
+        background-color: red;
+    }
+    33%{
+        background-color: green;
+    }
+    66%{
+        background-color: blue;
+    }
+}
