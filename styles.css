@@ -60,7 +60,7 @@ nav a{
 .video{
     float: right;
     width: 44%;
-    height: auto;
+    height: 50%;
 }
 .footnav{
     text-align: center;
@@ -73,6 +73,7 @@ nav a{
 .description{
     text-align: center;
     margin: 40px;
+    display: grid;
 }
 .footnav a:hover{
     text-decoration: none;
@@ -162,7 +163,7 @@ table.week{
     border-collapse: collapse;
 }
 table.week td, th{
-    padding: 10px;
+    padding: 5px;
     border: 1px solid black;
 }
 table.week thead{
@@ -206,7 +207,7 @@ table.week thead{
     background-repeat: no-repeat;
     background-size: cover;
     padding: 10rem;
-    font-size: larger;
+    font-size: larger; 
 }
 .grotto-img{
     height: 100vh;
@@ -225,9 +226,12 @@ table.week thead{
 }
 .grotto-layout img{
     width: 30%;
-    height: auto;
+    height: 40%;
     float: right;
     margin-right: 10rem;
+}
+.grotto-description{
+    display: grid;
 }
 .grotto-description h1, p{
     text-align: center;
